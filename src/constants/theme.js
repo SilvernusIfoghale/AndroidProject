@@ -11,6 +11,21 @@ export const COLORS = {
   white: '#ffffff',
   black: '#000000',
   pink: '#f3f',
+  blackFill: '#050505',
+  blackSkin: '#141415',
+  graySkin: '#45454A',
+  grayWhite: '#A0A0A7',
+  offWhite: '##E7E7E9',
+  yellowFill: '#FFD124',
+  yellowSkin: '#D2AD23',
+  yellowDark: '#A58922',
+  yellowBrown: '#786620',
+  Brown: '#4B421F',
+  greenFill: '#1C792C',
+  greenSkin: '#1C6729',
+  greenDark: '#1D5427',
+  greenGray: '#1D4224',
+  greenBlack: '#1E3021',
 };
 
 export const SIZES = {

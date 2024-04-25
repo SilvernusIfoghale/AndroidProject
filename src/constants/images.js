@@ -1,5 +1,5 @@
-export const boy = require('../assets/images/boy.jpg');
+export const Logo = require('../assets/Images/Lenny-logo250.png');
 
 export default {
-  boy,
+  Logo,
 };

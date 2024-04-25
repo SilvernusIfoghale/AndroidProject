@@ -1,18 +1,20 @@
 import React from 'react';
 import {Text, View} from 'react-native';
-import {createStackNavigator} from '@react-navigation/stack';
-import {NavigationContainer} from '@react-navigation/native';
-import AuthStack from './src/navigator/AuthStack';
 import AppStack from './src/navigator/AppStack';
+import {COLORS, icons, images, SIZES, FONTS} from './src/constants';
+import {NavigationContainer} from '@react-navigation/native';
+import {createStackNavigator} from '@react-navigation/stack';
+import AuthStack from './src/navigator/AuthStack';
 
 function App() {
   const Stack = createStackNavigator();
   return (
     <>
+      {/* <AppStack /> */}
       <NavigationContainer>
         <Stack.Navigator screenOptions={{headerShown: false}}>
-          <Stack.Screen name="AppStack" component={AppStack} />
           <Stack.Screen name="AuthStack" component={AuthStack} />
+          <Stack.Screen name="AppStack" component={AppStack} />
         </Stack.Navigator>
       </NavigationContainer>
     </>
@@ -20,19 +22,9 @@ function App() {
 }
 
 export default App;
-// import { StyleSheet, Text, View, Image } from 'react-native'
-// import React from 'react';
-// import { NavigationContainer } from '@react-navigation/native';
-// import MainNavigator from './screens/MainNavigator';
+
 // import { COLORS, icons, images, SIZES, FONTS } from './src/constants';
 
-// const App = () => {
-//   return (
-//     <NavigationContainer>
-//       <MainNavigator />
-//     </NavigationContainer>
-//   );
-// };
 //     <View>
 //       <Text style={{ fontFamily: "Poppins-Bold" }}>App</Text>
 //       <Image source={icons.check} />
@@ -43,7 +35,3 @@ export default App;
 //     </View>
 //   )
 // }
-
-// export default App
-
-// const styles = StyleSheet.create({})

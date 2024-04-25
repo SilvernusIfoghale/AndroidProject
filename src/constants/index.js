@@ -1,4 +1,4 @@
-import icons from './icons';
+import icons from './icon';
 import images from './images';
 import appTheme, {COLORS, SIZES, FONTS} from './theme';
 
