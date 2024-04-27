@@ -1,10 +1,10 @@
 import {View, Text} from 'react-native';
 import React from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import HomeScreen from '../screens/Main/HomeScreen';
-import ChatScreen from '../screens/Main/ChatScreen';
-import NotificationScreen from '../screens/Main/NotificationScreen';
-import ProfileScreen from '../screens/Main/ProfileScreen';
+import HomeScreen from '../screens/Main/Home/HomeScreen';
+import ChatScreen from '../screens/Main/Chat/ChatScreen';
+import NotificationScreen from '../screens/Main/Notification/NotificationScreen';
+import ProfileScreen from '../screens/Main/Profile/ProfileScreen';
 
 export default function BottomTab() {
   const Tab = createBottomTabNavigator();
